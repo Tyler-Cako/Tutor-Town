@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face{
+  font-family: "LEMONMILK";
+  src: url("./Fonts/LEMONMILK-Regular.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "LEMONMILK";
+}
+
+
+body {
+  /* background: #ABD2FF; */
+  background: #76B1F6;
+}
+
+.logo {
+  font-family: "LEMONMILK";
+  text-align: center;
+  font-size: 1.75em;
+  color: white;
+  padding: 0.5em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  list-style: none;
+  color:white;
+  padding: 0 3vw 0 3vw;
+}
+
+/* .wrapper li {
+  background-color: rgba(256, 256, 256, 0.1);
+} */
+
+.wrapper li a {
+  display: block;
+  text-decoration: none;
+  color:white;
+  margin: 1em;
+  font-family: "LEMONMILK";
+  font-size: 1em;
+}
+
+.wrapper li:hover {
+  background-color: rgba(256, 256, 256, 0.2);
+}
+
+main {
+  background-color: white;
+  padding: 5vh 2.5vw 100vh 2.5vw;
+  margin: 0 3vw 0 3vw;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+main h2 {
+  font-size: 1.5em;
+}
+
+.article-header{
+  padding: 2.5vh 2vw 0 2vw;
+}
+.articles h3 {
+  color: rgba(0, 0, 0, .75);
+  font-size: 1.5em;
+}
+
+.articles h3:hover {
+  color: #76B1F6;
+  cursor: pointer;
+}
+
+.articles p {
+  color: rgba(0, 0, 0, .75);
+  padding: 2.5vh 3.5vw 2.5vh 3.5vw;
+  padding-bottom: 30vh;
+}
+
+.article {
+  border: .15em solid;
+  margin: 1em;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding: 2em;
+  margin: 1em 25em 1em 25em;
+  color: white;
+  background-color: #76B1F6;
+  border-radius: 5px;
+}
