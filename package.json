@@ -1,0 +1,12 @@
+{
+  "name": "tutor-town",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Tyler",
+  "license": "MIT",
+  "homepage": "https://Tyler-Cako.github.io/Tutor-Town"
+}
